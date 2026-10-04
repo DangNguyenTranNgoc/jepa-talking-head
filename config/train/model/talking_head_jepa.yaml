@@ -1,0 +1,10 @@
+
+_target_: talking_head_jepa.TalkingHeadJEPA
+encoder_depth: 12
+latent_dim: 768
+image_size: 224
+audio_feature_dim: 1024
+embed_dim: 768
+hidden_dim: 768
+history_size: 1
+num_preds: 1

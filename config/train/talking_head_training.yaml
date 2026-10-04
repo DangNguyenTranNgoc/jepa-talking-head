@@ -1,0 +1,21 @@
+
+defaults:
+  - data: may_processed
+  - model: talking_head_jepa
+  - trainer: default
+  - _self_
+
+trainer:
+  accelerator: gpu
+  devices: 1
+
+batch_size: 2
+num_workers: 2
+
+wandb:
+  enabled: False
+
+num_samples: 6073
+seq_len: 16
+lr: 3e-4
+epochs: 1

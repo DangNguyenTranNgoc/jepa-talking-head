@@ -1,0 +1,3 @@
+
+_target_: stable_worldmodel.data.datamodule.H5DataModule
+h5_path: /content/drive/MyDrive/Data/le-wm/data/may_processed.h5

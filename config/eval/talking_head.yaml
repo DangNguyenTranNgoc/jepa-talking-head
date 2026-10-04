@@ -1,0 +1,12 @@
+checkpoint_path: "checkpoints/talking_head_ckpt_epoch_2.pth"
+num_samples: 2
+seq_len: 8
+batch_size: 1
+
+model:
+  image_size: 224
+  audio_feature_dim: 1024
+  embed_dim: 256
+  hidden_dim: 256
+  history_size: 4
+  num_preds: 4

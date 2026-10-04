@@ -1,0 +1,16 @@
+epochs: 2
+batch_size: 8
+lr: 1.0e-4
+num_samples: 160
+seq_len: 8
+
+model:
+  image_size: 224
+  audio_feature_dim: 1024
+  embed_dim: 256
+  hidden_dim: 256
+  history_size: 4
+  num_preds: 4
+  pretrained_imagenet: false  # set true to init face_encoder from ImageNet weights before JEPA fine-tuning
+  face_encoder_type: vit_b16  # 'vit_b16' (default, trainable) | 'farl_frozen' (added 2026-08-26,
+                              # frozen FaRL dense patch tokens - see talking_head_jepa.FarlFrozenFaceEncoder)
